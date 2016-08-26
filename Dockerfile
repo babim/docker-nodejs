@@ -19,7 +19,7 @@ ADD install_node /usr/local/bin/install_node
 ENV NODE_ENV production
 
 WORKDIR /app
-EXPOSE 80
+EXPOSE 3000
 
 # start
 CMD ["npm", "start"]
